@@ -3,14 +3,15 @@
   <head>
     <title>One Month Rails Project</title>
     <%= csrf_meta_tags %>
-
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+	<!-- Latest compiled and minified CSS -->
   </head>
 
   <body>
-  	<%= link_to "Home", root_path %>
-	<%= link_to "About", about_path %>
+	  	<%= link_to "Home", root_path %>
+		<%= link_to "About", about_path %>
+		<%= link_to "Contact", contact_path %>
     <%= yield %>
   </body>
 </html>
